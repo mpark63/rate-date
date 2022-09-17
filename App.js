@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { TextInput, KeyboardAvoidingView, StyleSheet, Text, View, TouchableOpacity, Platform, Keyboard } from 'react-native';
 import Task from './components/Task';
+import { StyleSheet, Text, View } from 'react-native';
+import LoginForm from './LoginForm.js';
 
 export default function App() {
   const [taskName, setTask] = useState();
